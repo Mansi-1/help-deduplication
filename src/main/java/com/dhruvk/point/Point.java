@@ -18,4 +18,8 @@ public class Point {
                 y == point.y;
     }
 
+
+    public int hashCode() {
+        return java.util.Objects.hash(this.x, this.y);
+    }
 }
